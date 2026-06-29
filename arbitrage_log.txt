@@ -1,0 +1,100 @@
+[2026-06-29 11:11:05] Binance: $59876.01 | Kraken: $59862.8 | Spread: $-13.21
+[2026-06-29 11:11:05] Error: 'charmap' codec can't encode character '\u274c' in position 22: character maps to <undefined>
+[2026-06-29 11:11:15] Binance: $59890.0 | Kraken: $59890.5 | Spread: $0.5
+[2026-06-29 11:11:15] Error: 'charmap' codec can't encode character '\u274c' in position 22: character maps to <undefined>
+[2026-06-29 11:11:25] Binance: $59892.0 | Kraken: $59896.7 | Spread: $4.7
+[2026-06-29 11:11:25] Error: 'charmap' codec can't encode character '\u274c' in position 22: character maps to <undefined>
+[2026-06-29 11:11:36] Binance: $59892.0 | Kraken: $59896.7 | Spread: $4.7
+[2026-06-29 11:11:36] Error: 'charmap' codec can't encode character '\u274c' in position 22: character maps to <undefined>
+[2026-06-29 11:11:46] Binance: $59887.58 | Kraken: $59896.7 | Spread: $9.12
+[2026-06-29 11:11:46] Error: 'charmap' codec can't encode character '\u274c' in position 22: character maps to <undefined>
+[2026-06-29 11:11:57] Binance: $59889.62 | Kraken: $59896.7 | Spread: $7.08
+[2026-06-29 11:11:57] Error: 'charmap' codec can't encode character '\u274c' in position 22: character maps to <undefined>
+[2026-06-29 11:12:07] Binance: $59902.44 | Kraken: $59896.7 | Spread: $-5.74
+[2026-06-29 11:12:07] Error: 'charmap' codec can't encode character '\u274c' in position 22: character maps to <undefined>
+[2026-06-29 11:12:18] Binance: $59893.85 | Kraken: $59896.7 | Spread: $2.85
+[2026-06-29 11:12:18] Error: 'charmap' codec can't encode character '\u274c' in position 22: character maps to <undefined>
+[2026-06-29 11:12:28] Binance: $59887.58 | Kraken: $59896.7 | Spread: $9.12
+[2026-06-29 11:12:28] Error: 'charmap' codec can't encode character '\u274c' in position 22: character maps to <undefined>
+[2026-06-29 11:12:39] Binance: $59896.63 | Kraken: $59896.7 | Spread: $0.07
+[2026-06-29 11:12:39] Error: 'charmap' codec can't encode character '\u274c' in position 22: character maps to <undefined>
+[2026-06-29 11:12:49] Binance: $59899.88 | Kraken: $59896.7 | Spread: $-3.18
+[2026-06-29 11:12:49] Error: 'charmap' codec can't encode character '\u274c' in position 22: character maps to <undefined>
+[2026-06-29 11:13:00] Binance: $59896.19 | Kraken: $59896.7 | Spread: $0.51
+[2026-06-29 11:13:00] Error: 'charmap' codec can't encode character '\u274c' in position 22: character maps to <undefined>
+[2026-06-29 11:13:10] Binance: $59901.99 | Kraken: $59896.7 | Spread: $-5.29
+[2026-06-29 11:13:10] Error: 'charmap' codec can't encode character '\u274c' in position 22: character maps to <undefined>
+[2026-06-29 11:13:21] Binance: $59902.0 | Kraken: $59896.7 | Spread: $-5.3
+[2026-06-29 11:13:21] Error: 'charmap' codec can't encode character '\u274c' in position 22: character maps to <undefined>
+[2026-06-29 11:14:40] Binance: $59937.95 | Kraken: $59914.6 | Spread: $-23.35
+[2026-06-29 11:14:40] No opportunity right now
+[2026-06-29 11:14:46] Binance: $59943.37 | Kraken: $59914.6 | Spread: $-28.77
+[2026-06-29 11:14:46] No opportunity right now
+[2026-06-29 11:14:51] Binance: $59955.13 | Kraken: $59914.6 | Spread: $-40.53
+[2026-06-29 11:14:51] No opportunity right now
+[2026-06-29 11:14:56] Binance: $59948.87 | Kraken: $59914.6 | Spread: $-34.27
+[2026-06-29 11:14:56] No opportunity right now
+[2026-06-29 11:15:02] Binance: $59948.0 | Kraken: $59914.6 | Spread: $-33.4
+[2026-06-29 11:15:02] No opportunity right now
+[2026-06-29 11:15:07] Binance: $59950.37 | Kraken: $59914.6 | Spread: $-35.77
+[2026-06-29 11:15:07] No opportunity right now
+[2026-06-29 11:15:13] Binance: $59945.95 | Kraken: $59914.6 | Spread: $-31.35
+[2026-06-29 11:15:13] No opportunity right now
+[2026-06-29 11:15:19] Binance: $59948.0 | Kraken: $59949.0 | Spread: $1.0
+[2026-06-29 11:15:19] No opportunity right now
+[2026-06-29 11:15:24] Binance: $59959.99 | Kraken: $59949.0 | Spread: $-10.99
+[2026-06-29 11:15:24] No opportunity right now
+[2026-06-29 11:15:29] Binance: $59959.99 | Kraken: $59949.0 | Spread: $-10.99
+[2026-06-29 11:15:29] No opportunity right now
+[2026-06-29 11:15:35] Binance: $59967.58 | Kraken: $59949.0 | Spread: $-18.58
+[2026-06-29 11:15:35] No opportunity right now
+[2026-06-29 11:15:40] Binance: $59992.0 | Kraken: $59949.0 | Spread: $-43.0
+[2026-06-29 11:15:40] No opportunity right now
+[2026-06-29 11:15:46] Binance: $60000.0 | Kraken: $59949.0 | Spread: $-51.0
+[2026-06-29 11:15:46] OPPORTUNITY FOUND: Buy on Kraken, Sell on Binance
+[2026-06-29 11:15:51] Binance: $60021.0 | Kraken: $60001.2 | Spread: $-19.8
+[2026-06-29 11:15:51] No opportunity right now
+[2026-06-29 11:54:31] BTC/USD: $59919.2 | BTC/USDT: $59966.1 | Spread: $-46.9
+[2026-06-29 11:54:31] OPPORTUNITY FOUND: Buy BTC/USD, Sell BTC/USDT on Kraken
+[2026-06-29 11:54:37] BTC/USD: $59919.2 | BTC/USDT: $59966.1 | Spread: $-46.9
+[2026-06-29 11:54:37] OPPORTUNITY FOUND: Buy BTC/USD, Sell BTC/USDT on Kraken
+[2026-06-29 11:54:44] BTC/USD: $59919.2 | BTC/USDT: $59966.1 | Spread: $-46.9
+[2026-06-29 11:54:44] OPPORTUNITY FOUND: Buy BTC/USD, Sell BTC/USDT on Kraken
+[2026-06-29 11:54:50] BTC/USD: $59919.8 | BTC/USDT: $59966.1 | Spread: $-46.3
+[2026-06-29 11:54:50] OPPORTUNITY FOUND: Buy BTC/USD, Sell BTC/USDT on Kraken
+[2026-06-29 11:54:56] BTC/USD: $59919.8 | BTC/USDT: $59966.1 | Spread: $-46.3
+[2026-06-29 11:54:56] OPPORTUNITY FOUND: Buy BTC/USD, Sell BTC/USDT on Kraken
+[2026-06-29 11:55:02] BTC/USD: $59921.1 | BTC/USDT: $59966.1 | Spread: $-45.0
+[2026-06-29 11:55:02] OPPORTUNITY FOUND: Buy BTC/USD, Sell BTC/USDT on Kraken
+[2026-06-29 11:55:08] BTC/USD: $59921.1 | BTC/USDT: $59966.1 | Spread: $-45.0
+[2026-06-29 11:55:08] OPPORTUNITY FOUND: Buy BTC/USD, Sell BTC/USDT on Kraken
+[2026-06-29 11:55:15] BTC/USD: $59940.7 | BTC/USDT: $59966.1 | Spread: $-25.4
+[2026-06-29 11:55:15] OPPORTUNITY FOUND: Buy BTC/USD, Sell BTC/USDT on Kraken
+[2026-06-29 11:55:21] BTC/USD: $59940.7 | BTC/USDT: $59966.1 | Spread: $-25.4
+[2026-06-29 11:55:21] OPPORTUNITY FOUND: Buy BTC/USD, Sell BTC/USDT on Kraken
+[2026-06-29 11:55:27] BTC/USD: $59941.0 | BTC/USDT: $59966.1 | Spread: $-25.1
+[2026-06-29 11:55:27] OPPORTUNITY FOUND: Buy BTC/USD, Sell BTC/USDT on Kraken
+[2026-06-29 11:55:33] BTC/USD: $59945.2 | BTC/USDT: $59966.1 | Spread: $-20.9
+[2026-06-29 11:55:33] OPPORTUNITY FOUND: Buy BTC/USD, Sell BTC/USDT on Kraken
+[2026-06-29 11:55:39] BTC/USD: $59960.3 | BTC/USDT: $59966.1 | Spread: $-5.8
+[2026-06-29 11:55:39] No opportunity right now
+[2026-06-29 11:55:45] BTC/USD: $59974.4 | BTC/USDT: $59966.1 | Spread: $8.3
+[2026-06-29 11:55:45] No opportunity right now
+[2026-06-29 11:55:52] BTC/USD: $59975.2 | BTC/USDT: $59966.1 | Spread: $9.1
+[2026-06-29 11:55:52] No opportunity right now
+[2026-06-29 11:55:58] BTC/USD: $59963.7 | BTC/USDT: $59966.1 | Spread: $-2.4
+[2026-06-29 11:55:58] No opportunity right now
+[2026-06-29 11:56:04] BTC/USD: $59963.7 | BTC/USDT: $59966.1 | Spread: $-2.4
+[2026-06-29 11:56:04] No opportunity right now
+[2026-06-29 11:56:10] BTC/USD: $59958.3 | BTC/USDT: $60041.2 | Spread: $-82.9
+[2026-06-29 11:56:10] OPPORTUNITY FOUND: Buy BTC/USD, Sell BTC/USDT on Kraken
+[2026-06-29 11:56:17] BTC/USD: $59958.3 | BTC/USDT: $60041.2 | Spread: $-82.9
+[2026-06-29 11:56:17] OPPORTUNITY FOUND: Buy BTC/USD, Sell BTC/USDT on Kraken
+[2026-06-29 11:56:23] BTC/USD: $59977.1 | BTC/USDT: $60041.2 | Spread: $-64.1
+[2026-06-29 11:56:23] OPPORTUNITY FOUND: Buy BTC/USD, Sell BTC/USDT on Kraken
+[2026-06-29 11:56:29] BTC/USD: $59977.1 | BTC/USDT: $60041.2 | Spread: $-64.1
+[2026-06-29 11:56:29] OPPORTUNITY FOUND: Buy BTC/USD, Sell BTC/USDT on Kraken
+[2026-06-29 11:56:35] BTC/USD: $59977.2 | BTC/USDT: $60041.2 | Spread: $-64.0
+[2026-06-29 11:56:36] OPPORTUNITY FOUND: Buy BTC/USD, Sell BTC/USDT on Kraken
+[2026-06-29 11:56:42] BTC/USD: $59977.2 | BTC/USDT: $60041.2 | Spread: $-64.0
+[2026-06-29 11:56:42] OPPORTUNITY FOUND: Buy BTC/USD, Sell BTC/USDT on Kraken
