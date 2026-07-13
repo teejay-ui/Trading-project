@@ -2,7 +2,14 @@ import ccxt
 import time
 from datetime import datetime
 
-kraken = ccxt.kraken()
+# Connect to all exchanges
+exchanges = {
+    'kraken': ccxt.kraken(),
+    'coinbase': ccxt.coinbase(),
+    'kucoin': ccxt.kucoin(),
+    'bybit': ccxt.bybit(),
+    'okx': ccxt.okx(),
+}
 
 def log(message):
     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
@@ -11,21 +18,41 @@ def log(message):
     with open('arbitrage_log.txt', 'a', encoding='utf-8') as f:
         f.write(log_entry + '\n')
 
+def get_prices():
+    prices = {}
+    for name, exchange in exchanges.items():
+        try:
+            ticker = exchange.fetch_ticker('BTC/USDT')
+            prices[name] = ticker['last']
+        except Exception as e:
+            log(f"Error fetching {name}: {e}")
+    return prices
+
 def check_arbitrage():
-    # Compare BTC/USD vs BTC/USDT on Kraken
-    btc_usd = kraken.fetch_ticker('BTC/USD')['last']
-    btc_usdt = kraken.fetch_ticker('BTC/USDT')['last']
+    prices = get_prices()
 
-    spread = btc_usd - btc_usdt
+    if len(prices) < 2:
+        log("Not enough exchange data")
+        return
 
-    log(f"BTC/USD: ${btc_usd} | BTC/USDT: ${btc_usdt} | Spread: ${round(spread, 2)}")
+    # Find cheapest and most expensive
+    cheapest = min(prices, key=prices.get)
+    expensive = max(prices, key=prices.get)
 
-    if spread > 10:
-        log("OPPORTUNITY FOUND: Buy BTC/USDT, Sell BTC/USD on Kraken")
-    elif spread < -10:
-        log("OPPORTUNITY FOUND: Buy BTC/USD, Sell BTC/USDT on Kraken")
+    spread = prices[expensive] - prices[cheapest]
+
+    # Print all prices
+    for name, price in prices.items():
+        log(f"{name}: ${price}")
+
+    log(f"Best spread: ${round(spread, 2)} | Buy on {cheapest} (${prices[cheapest]}) | Sell on {expensive} (${prices[expensive]})")
+
+    if spread > 20:
+        log(f"OPPORTUNITY FOUND: Buy on {cheapest}, Sell on {expensive} | Profit: ${round(spread, 2)}")
     else:
-        log("No opportunity right now")
+        log(f"No opportunity right now | Best spread: ${round(spread, 2)}")
+
+    log("-" * 60)
 
 # Bot loop
 while True:

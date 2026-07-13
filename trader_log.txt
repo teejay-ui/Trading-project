@@ -1,0 +1,17 @@
+[2026-07-14 01:23:08] Error: binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+[2026-07-14 01:24:08] Error: binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+[2026-07-14 01:25:08] Error: binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+[2026-07-14 01:26:08] Error: binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+[2026-07-14 01:27:09] Error: binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+[2026-07-14 01:28:09] Error: binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+[2026-07-14 01:29:09] Error: binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+[2026-07-14 01:30:10] Error: binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+[2026-07-14 01:31:10] Error: binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+[2026-07-14 01:32:37] Error: binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+[2026-07-14 01:33:11] Error: binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+[2026-07-14 01:34:11] Error: binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+[2026-07-14 01:35:11] Error: binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+[2026-07-14 01:47:48] Price: $62199.99 | RSI: 39.92 | SMA10: 62228.84 | SMA30: 62945.82
+[2026-07-14 01:47:48] Balance: 10000.0 USDT | 1.0 BTC | Signal: HOLD
+[2026-07-14 01:47:48] No trade executed
+[2026-07-14 01:47:48] ------------------------------------------------------------
