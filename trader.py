@@ -2,9 +2,11 @@ import ccxt
 import time
 import pandas as pd
 import ta
+import requests
 import os
 from datetime import datetime
 from dotenv import load_dotenv
+
 load_dotenv()
 
 exchange = ccxt.binance({
@@ -13,6 +15,17 @@ exchange = ccxt.binance({
 })
 
 exchange.set_sandbox_mode(True)
+
+TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
+TELEGRAM_CHAT_ID = os.environ.get('TELEGRAM_CHAT_ID')
+
+def send_telegram(message):
+    url = f'https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage'
+    payload = {'chat_id': TELEGRAM_CHAT_ID, 'text': message}
+    try:
+        requests.post(url, data=payload)
+    except Exception as e:
+        print(f"Telegram error: {e}")
 
 def log(message):
     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
@@ -58,12 +71,20 @@ def trade():
     if signal == 'BUY' and usdt > 10:
         amount = round(10 / price, 6)
         order = exchange.create_market_buy_order('BTC/USDT', amount)
-        log(f"BUY ORDER PLACED: {amount} BTC at ${price}")
+        msg = f"BUY ORDER PLACED\nAmount: {amount} BTC\nPrice: ${price}\nBalance: {usdt} USDT"
+        log(msg)
+        send_telegram(msg)
+
     elif signal == 'SELL' and btc > 0:
         order = exchange.create_market_sell_order('BTC/USDT', btc)
-        log(f"SELL ORDER PLACED: {btc} BTC at ${price}")
+        msg = f"SELL ORDER PLACED\nAmount: {btc} BTC\nPrice: ${price}\nBalance: {usdt} USDT"
+        log(msg)
+        send_telegram(msg)
+
     else:
+        msg = f"No trade executed\nSignal: {signal}\nPrice: ${price}\nRSI: "
         log("No trade executed")
+        send_telegram(msg)
 
 # Bot loop
 while True:
